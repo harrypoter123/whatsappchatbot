@@ -39,7 +39,7 @@ async function sendResponseToUser(user, response) {
 
 // Define an endpoint to handle incoming messages from the Interakt-like API
 // Define an endpoint to handle incoming messages from the Interakt-like API
-app.post('/webhook', async (req, res) => {
+app.post('/incoming', async (req, res) => {
   try {
     const incomingMessage = req.body;
 
